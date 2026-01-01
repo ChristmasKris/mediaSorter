@@ -1,6 +1,6 @@
 # Media Sorter
 
-A simple web application for sorting media into approved and declined folders.
+A simple web application developed by AI for sorting media into approved and declined folders.
 
 ## How It Works
 
