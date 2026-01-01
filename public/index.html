@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Organizer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="image-container" id="imageContainer">
+      <div class="empty-state" id="emptyState">No images</div>
+      <div class="image-wrapper" id="imageWrapper" style="display: none;">
+        <img class="image image-next" id="nextImage" alt="Next image" />
+        <img class="image image-current" id="currentImage" alt="Current image" />
+      </div>
+    </div>
+    <div class="status" id="status"></div>
+    <div class="controls">
+      <div class="hint-left">Decline</div>
+      <div class="hint-right">Approve</div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
